@@ -163,18 +163,31 @@ export default function AboutPage() {
         {/* ── Education ───────────────────────────────────── */}
         <section aria-labelledby="edu-heading" className="space-y-6">
           <SectionLabel>Education</SectionLabel>
-          <GlassCard className="p-5 flex items-start gap-4 max-w-lg">
-            <div className="w-9 h-9 rounded-lg flex items-center justify-center bg-white/[0.04] border border-white/[0.08] shrink-0 mt-0.5">
-              <CheckCircle2 size={16} className="text-[var(--color-text-muted)]" />
-            </div>
-            <div className="space-y-1">
-              <p className="text-sm font-semibold text-[var(--color-text-primary)]">
-                Advanced Diploma: Computer Systems Technology, Systems Analyst
-              </p>
-              <p className="text-xs text-[var(--color-accent)]">Sheridan College</p>
-              <p className="text-xs text-[var(--color-text-dim)]">Oakville, Ontario</p>
-            </div>
-          </GlassCard>
+          <div className="space-y-3 max-w-lg">
+            <GlassCard className="p-5 flex items-start gap-4">
+              <div className="w-9 h-9 rounded-lg flex items-center justify-center bg-white/[0.04] border border-white/[0.08] shrink-0 mt-0.5">
+                <CheckCircle2 size={16} className="text-[var(--color-text-muted)]" />
+              </div>
+              <div className="space-y-1">
+                <p className="text-sm font-semibold text-[var(--color-text-primary)]">
+                  Advanced Diploma: Computer Systems Technology, Systems Analyst
+                </p>
+                <p className="text-xs text-[var(--color-accent)]">Sheridan College</p>
+                <p className="text-xs text-[var(--color-text-dim)]">Oakville, Ontario</p>
+              </div>
+            </GlassCard>
+            <GlassCard className="p-5 flex items-start gap-4">
+              <div className="w-9 h-9 rounded-lg flex items-center justify-center bg-[var(--color-accent)]/10 border border-[var(--color-accent)]/15 shrink-0 mt-0.5">
+                <CheckCircle2 size={16} className="text-[var(--color-accent)]" />
+              </div>
+              <div className="space-y-1">
+                <p className="text-sm font-semibold text-[var(--color-text-primary)]">
+                  Velocity, Cornerstone Program
+                </p>
+                <p className="text-xs text-[var(--color-accent)]">University of Waterloo</p>
+              </div>
+            </GlassCard>
+          </div>
         </section>
 
         {/* ── Community ───────────────────────────────────── */}

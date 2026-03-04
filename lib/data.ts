@@ -86,9 +86,12 @@ export const timeline: TimelineRole[] = [
     location: "San Francisco Bay Area · Remote",
     bullets: [
       "Delivered solution engineering for an AI-powered customer support platform, partnering directly with customers to resolve complex integration challenges and drive successful product adoption.",
-      "Built client demos in Python integrating Confluence, Zendesk, Shopify, and Salesforce APIs.",
-      "Partnered with Account Management to facilitate customer upgrades to Discover AI and develop self-service knowledge resources.",
-      "Led development of the Discover Support Knowledge Base in Notion and the Self Service Portal.",
+      "Built and maintained client-facing integration demos in Python connecting Confluence, Zendesk, Shopify, and Salesforce APIs to showcase platform capabilities.",
+      "Diagnosed and resolved technical escalations across the full platform stack — from API configuration and authentication flows to knowledge ingestion and model behavior.",
+      "Collaborated cross-functionally with Product and Engineering to surface customer feedback, reproduce edge-case issues, and accelerate resolution of platform-level bugs.",
+      "Partnered with Account Management to identify expansion opportunities, facilitate customer upgrades to Discover AI, and support contract renewals.",
+      "Led development of the Discover Support Knowledge Base in Notion and the Self Service Portal, reducing inbound ticket volume and improving time-to-resolution.",
+      "Contributed to internal enablement resources, documenting best practices and integration patterns to support the broader solutions team.",
     ],
   },
   {
@@ -125,6 +128,18 @@ export const timeline: TimelineRole[] = [
       "Contributed to building and maintaining enterprise payment and POS systems within a fast-paced fintech environment.",
       "Developed and supported integrations across customer-facing platforms and backend services, improving system functionality and stability.",
       "Collaborated with engineering and operations teams to troubleshoot complex technical issues and implement scalable solutions.",
+    ],
+  },
+  {
+    title: "Founding Account Manager",
+    company: "SVP Studios",
+    period: "Sep 2018 – Apr 2022",
+    location: "Ontario, Canada",
+    bullets: [
+      "Drove digital marketing and sales initiatives from concept to execution, combining campaign strategy, creative direction, and marketing technology to increase lead generation and support business growth.",
+      "Managed end-to-end campaign workflows across digital channels, owning strategy, creative assets, and performance tracking.",
+      "Supported client acquisition through consultative sales, developing proposals and pitching tailored solutions to prospective accounts.",
+      "Leveraged marketing tools and CRM platforms to track pipeline activity, optimize outreach, and report on campaign performance.",
     ],
   },
   {
@@ -206,8 +221,8 @@ export const skillGroups: SkillGroup[] = [
 export const certifications: Certification[] = [
   { name: "Gen AI Agents: Transform Your Organization", issuer: "Google", date: "February 2026" },
   { name: "Machine Learning Operations (MLOps) for Generative AI", issuer: "Google", date: "January 2026" },
-  { name: "CompTIA Security+", issuer: "CompTIA", date: "June 2024" },
-  { name: "AWS Certified Cloud Practitioner", issuer: "Amazon Web Services", date: "December 2023" },
+  { name: "CompTIA Security+ ce Certification", issuer: "CompTIA", date: "June 2024" },
+  { name: "AWS Certified Cloud Practitioner", issuer: "Amazon Web Services (AWS)", date: "December 2023" },
 ];
 
 // ─── Feature Grid ─────────────────────────────────────────────────────────
